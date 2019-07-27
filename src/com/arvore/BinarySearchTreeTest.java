@@ -36,6 +36,11 @@ public class BinarySearchTreeTest {
 		
 		System.out.println(tree.search(1) ? "Key 1 found." : "Key 1 not found.");
 		System.out.println(tree.search(8) ? "Key 8 found." : "Key 8 not found.");
+
+		tree.remove(15);
+		System.out.println("Navegação pré ordem");
+		tree.preOrderTraverse();
+
 		
 	}
 }
